@@ -15,5 +15,5 @@ formulario.addEventListener('submit',function(e){
     .then(mensaje =>{
         console.log(mensaje)
     })
-    //Falta crear el metodo para limpiar los input
+    //Falta crear el metodo para limpiar los input aqui
 })
