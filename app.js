@@ -12,7 +12,7 @@ formulario.addEventListener('submit',function(e){
         body : datos
     })
     .then(res => res.json())
-    .then(mensaje =>{
+    .then(mensaje =>{ 
         console.log(mensaje)
     })
     //Falta crear el metodo para limpiar los input
